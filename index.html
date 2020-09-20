@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__personal">
+                <h1 class="header__name"> Sergey <br> Kustarnikov</h1>
+                <img class="header__img" src="/images/icon.png" alt="photo">
+            </div>
+        </div>
+    </header>
+    <section class="contacts">
+        <div class="container">
+            <h2 class="contacts__title title">Contacts</h2>
+            <a class="contacts__phone" href="tel:+79963302357"><strong>phone
+                    number:&nbsp</strong>+7(996)-330-23-57</a><br>
+            <a class="contacts__email"
+                href="mailto:sergei.03.k@gmail.com"><strong>e-mail:&nbsp</strong>sergei.03.k@gmail.com</a><br>
+            <a class="contacts__telegram"
+                href="https://telegram.me/mydarkestside"><strong>telegram:&nbsp</strong>@mydarkestside</a>
+        </div>
+    </section>
+    <section class="summary">
+        <div class="container">
+            <h2 class="summary__title title">Summary</h2>
+            <p class="summary__text">
+                Main goals – profession change, self-development, meet people with experience in the field of front-end
+                development and more.
+            </p>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <h2 class="skills__title title">Skills</h2>
+            <p class="skills__text">
+                Basic HTML5, CSS, JS knowledge.
+                Acquainted about the use of the BEM class naming methodology
+            </p>
+        </div>
+    </section>
+    <section class="code">
+        <div class="container">
+            <h2 class="code__title title">Latest code (Example)</h2>
+            <pre class="code__text">
+                function startTime()
+                {
+                var today=new Date();
+                var h=today.getHours();
+                var m=today.getMinutes();
+                var s=today.getSeconds();
+                m=checkTime(m);
+                s=checkTime(s);
+                document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+                t=setTimeout('startTime()',500);
+                }
+                
+                function checkTime(i)
+                {
+                if (i<10)
+                  {
+                  i="0" + i;
+                  }
+                return i;
+                }
+        </pre>
+        </div>
+    </section>
+    <section class="experience">
+        <div class="container">
+            <h2 class="experience__title title">Experience</h2>
+            <p class="experience__text">
+                Marked up some layouts from internet
+            </p>
+        </div>
+    </section>
+    <section class="education">
+        <div class="container">
+            <h2 class="education__title title">Education</h2>
+            <ul class="education__list">
+                <li class="education__place">
+                    <strong>University:&nbsp</strong>Kabardian-Balkarian State University (2013-2019);</br>
+                    <strong>Course:&nbsp</strong>Management in technical systems;</br>
+                    <strong>Profession:&nbsp</strong>Engineer
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="language">
+        <div class="container">
+            <h2 class="language__title title">Languages</h2>
+            <p class="language__text"><strong>Russian</strong> (native)</p>
+            <p class="language__text"><strong>English</strong> (Intermediate (B1)</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__copyright">© 2020</div>
+        </div>
+    </footer>
+</body>
