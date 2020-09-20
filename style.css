@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p {
+    padding-left: 30px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ccc;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1054px;
+    padding: 0 15px;
+}
+
+.header {
+    background-color: #bdbdbd;
+}
+
+.header__personal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__name{
+    padding-top: 15px;
+}
+
+.contacts__phone {
+    padding: 5px 30px;
+}
+
+.contacts__phone:hover {
+    text-decoration: underline;
+}
+
+.contacts__email {
+    padding: 5px 30px;
+}
+
+.contacts__email:hover {
+    text-decoration: underline;
+}
+
+.contacts__telegram {
+    padding: 5px 30px;
+}
+
+.contacts__telegram:hover {
+    text-decoration: underline;
+}  
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: underline;
+    color: #363636;
+}
+
+.education__place{
+    padding-left: 30px;
+}
+
+.footer {
+    background-color: #bdbdbd;
+    height: 140px;
+}
+
+.footer__copyright {
+    padding-top: 70px;
+    font-size: 20px;
+    text-align: center;
+}
