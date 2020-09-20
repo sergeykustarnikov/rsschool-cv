@@ -35,4 +35,14 @@ Basic HTML5, CSS, JS knowledge. Acquainted about the use of the BEM class naming
 ## Experience
 Marked up some layouts from internet
 
+## Education
+**University:** Kabardian-Balkarian State University (2013-2019);
 
+**Course:** Management in technical systems;
+
+***Profession:*** Engineer
+
+## Languages
+**Russian** (native)
+
+**English** (Intermediate (B1)
