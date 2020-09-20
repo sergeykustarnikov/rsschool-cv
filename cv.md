@@ -40,7 +40,7 @@ Marked up some layouts from internet
 
 **Course:** Management in technical systems;
 
-***Profession:*** Engineer
+**Profession:** Engineer
 
 ## Languages
 **Russian** (native)
